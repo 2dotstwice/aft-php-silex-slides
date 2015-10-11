@@ -2,6 +2,8 @@
 
 Posting data
 
+    POST http://<your-url>/contact
+
 ```php
 $app->post(
     '/contact',

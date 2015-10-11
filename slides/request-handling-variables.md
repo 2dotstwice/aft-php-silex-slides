@@ -2,6 +2,8 @@
 
 Variable parameters in the URL
 
+    GET http://<your-url>/hello/Bert
+
 ```php
 $app->get(
     '/hello/{name}',

@@ -2,6 +2,8 @@
 
 Query parameters
 
+    GET http://<your-url>/search?name=...
+
 ```php
 $app->get('/search', function (Request $request) {
     $filter = $request->query->get('name');

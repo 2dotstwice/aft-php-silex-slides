@@ -2,6 +2,8 @@
 
 Hello world
 
+    GET http://<your-url>/hello
+
 ```php
 $app->get(
     '/hello',
