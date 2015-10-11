@@ -265,3 +265,7 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #42affa; }
+
+.reveal section img {
+  background: transparent;
+  border: none; }
