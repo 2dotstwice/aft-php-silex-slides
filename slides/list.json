@@ -1,5 +1,8 @@
 [
     "index.md",
     "what-will-we-learn.md",
-    "what-will-we-not-learn-today.md"
+    "what-will-we-not-learn-today.md",
+    "composer.md",
+    "composer-install.md",
+    "packagist.md"
 ]
