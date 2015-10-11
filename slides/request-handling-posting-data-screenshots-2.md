@@ -1,1 +1,1 @@
-![Contact POST request](resources/contact-post-file.png)
+![Contact POST request file](resources/post-file.png)
