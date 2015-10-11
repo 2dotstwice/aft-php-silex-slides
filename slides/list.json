@@ -11,8 +11,8 @@
     "request-handling-variables.md",
     "request-handling-query-parameters.md",
     "request-handling-query-parameters-screenshots.md",
-    "requesting-handling-posting-data.md",
-    "requesting-handling-posting-data-screenshots.md",
-    "requesting-handling-posting-data-screenshots-2.md",
+    "request-handling-posting-data.md",
+    "request-handling-posting-data-screenshots.md",
+    "request-handling-posting-data-screenshots-2.md",
     "additional-behavior-with-middlewares.md"
 ]
