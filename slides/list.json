@@ -4,5 +4,7 @@
     "what-will-we-not-learn-today.md",
     "composer.md",
     "composer-install.md",
-    "packagist.md"
+    "packagist.md",
+    "silex.md",
+    "basic-setup.md"
 ]
