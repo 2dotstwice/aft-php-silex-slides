@@ -2,4 +2,6 @@
 
 * HTML, CSS, JavaScript
 * Databases
+* Caching
 * Version control (Git, SVN)
+* ...
