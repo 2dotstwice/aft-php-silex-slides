@@ -268,4 +268,5 @@ body {
 
 .reveal section img {
   background: transparent;
-  border: none; }
+  border: none;
+  box-shadow: none; }
