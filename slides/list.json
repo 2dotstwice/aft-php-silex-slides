@@ -18,6 +18,7 @@
     "middlewares.md",
     "middlewares-screenshot.md",
     "middlewares-all.md",
+    "shared-services.md",
     "session-data.md",
     "session-data-denied.md",
     "session-data-ok.md",
