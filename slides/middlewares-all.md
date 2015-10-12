@@ -1,4 +1,4 @@
-##  Additional behavior with middlewares
+##  Available middlewares
 
 ```php
 $app->before(
@@ -6,11 +6,17 @@ $app->before(
         // Modify $request before it is handled...
     }
 );
+```
+
+```php
 $app->after(
     function (Request $request, Response $response) {
         // Modify $response before it is sent back... 
     }
 );
+```
+
+```php
 $app->finish(
     function (Request $request, Response $response) {
         // Additional actions such as logging...

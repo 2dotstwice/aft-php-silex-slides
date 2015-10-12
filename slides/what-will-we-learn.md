@@ -3,7 +3,8 @@
 * Managing dependencies with Composer
 * Handling incoming requests
 * Sending responses
-* Storing data on the filesystem
-* Storing session data
 * Adding additional behavior with middlewares
-* Sharing services to reduce code duplication
+* Using shared services to reduce code duplication
+* Storing session data
+* Storing data on the filesystem
+* Handling errors
