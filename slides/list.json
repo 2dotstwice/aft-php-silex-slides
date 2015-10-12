@@ -28,5 +28,9 @@
     "session-data-denied.md",
     "session-data-ok.md",
     "session-data-user.md",
-    "session-data-user-screenshot.md"
+    "session-data-user-screenshot.md",
+    "filesystem.md",
+    "filesystem-json-encode.md",
+    "filesystem-json-encode-screenshot.md",
+    "filesystem-json-decode.md"
 ]
