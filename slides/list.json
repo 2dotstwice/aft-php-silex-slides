@@ -22,5 +22,7 @@
     "session-data-user-screenshot.md",
     "additional-behavior-with-middlewares.md",
     "additional-behavior-with-middlewares-screenshot.md",
-    "additional-behavior-with-middlewares-all.md"
+    "additional-behavior-with-middlewares-all.md",
+    "handling-errors.md",
+    "handling-errors-screenshot.md"
 ]
