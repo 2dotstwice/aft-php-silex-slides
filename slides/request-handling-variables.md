@@ -2,7 +2,7 @@
 
 Variable parameters in the URL
 
-    GET http://<your-url>/hello/Bert
+    GET http://<your-url>/hello/AFT
 
 ```php
 $app->get(
@@ -14,4 +14,3 @@ $app->get(
 ```
 
 ![Screenshot of /hello/{name} request](resources/hello-name.png)
-
