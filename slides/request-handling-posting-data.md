@@ -13,7 +13,7 @@ $app->post(
         
         file_put_contents($filename, $content);
         
-        return new Response($content);
+        return new Response($filename);
     }
 );
 ```
