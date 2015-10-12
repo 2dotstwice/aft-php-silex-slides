@@ -21,12 +21,12 @@
     "middlewares.md",
     "middlewares-screenshot.md",
     "middlewares-all.md",
+    "handling-errors.md",
+    "handling-errors-screenshot.md",
     "shared-services.md",
     "session-data.md",
     "session-data-denied.md",
     "session-data-ok.md",
     "session-data-user.md",
-    "session-data-user-screenshot.md",
-    "handling-errors.md",
-    "handling-errors-screenshot.md"
+    "session-data-user-screenshot.md"
 ]

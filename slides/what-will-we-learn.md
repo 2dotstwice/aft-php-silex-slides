@@ -4,7 +4,7 @@
 * Handling incoming requests
 * Sending responses
 * Adding additional behavior with middlewares
+* Handling errors
 * Using shared services to reduce code duplication
 * Storing session data
 * Storing data on the filesystem
-* Handling errors

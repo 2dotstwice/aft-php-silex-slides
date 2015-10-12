@@ -1,18 +1,17 @@
 ##  Handling errors
 
 ```php
-$app->post(
-    '/login',
-    function (Request $request) use ($app) {
-        $username = $request->request->get('username');
-        $password = $request->request->get('password');
-        
-        if (empty($username) || empty($password)) {
+$app->get(
+    '/search',
+    function (Request $request) {
+        $filter = $request->query->get('name');
+        if (empty($filter)) {
             throw new Exception(
-                'Missing username and/or password.', 
+                'Please provide a name to filter on.',
                 400
             );
         }
+        
         // ...
     }
 );
