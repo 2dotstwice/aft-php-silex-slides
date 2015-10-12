@@ -9,8 +9,7 @@
 {
     "require": {
         "silex/silex": "~1.3",
-        "wyrihaximus/sli-fly": "~2.0",
-        "j7mbo/twitter-api-php": "~1.0"
+        "twig/twig": "^1.22"
     }
 }
 ```

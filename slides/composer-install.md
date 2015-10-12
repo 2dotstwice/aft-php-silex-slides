@@ -1,3 +1,3 @@
 ##  Composer install
 
-![Composer install screenshot](resources/composer.png)
+![Composer install screenshot](resources/composer-install.png)
