@@ -1,6 +1,6 @@
 ##  Additional behavior with middlewares
 
-Perform additional actions each route...
+Perform additional actions on each route...
 
 ```php
 $app->after(function (Request $request, Response $response) {
