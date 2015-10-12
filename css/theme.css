@@ -270,3 +270,6 @@ body {
   background: transparent;
   border: none;
   box-shadow: none; }
+
+.reveal pre {
+  box-shadow: none; }

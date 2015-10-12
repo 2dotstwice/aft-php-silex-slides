@@ -52,9 +52,13 @@ section.has-light-background {
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
 
-// Custom selector
+// Custom selectors
 .reveal section img {
   background: transparent;
   border: none;
+  box-shadow: none;
+}
+
+.reveal pre {
   box-shadow: none;
 }
