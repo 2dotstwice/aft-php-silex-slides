@@ -32,5 +32,7 @@
     "filesystem.md",
     "filesystem-json-encode.md",
     "filesystem-json-encode-screenshot.md",
-    "filesystem-json-decode.md"
+    "filesystem-json-decode.md",
+    "twig-templates.md",
+    "twig-templates-html.md"
 ]

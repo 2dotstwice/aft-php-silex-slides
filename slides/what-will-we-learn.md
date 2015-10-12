@@ -8,3 +8,4 @@
 * Using shared services to reduce code duplication
 * Storing session data
 * Storing data on the filesystem
+* Using Twig to render templates
