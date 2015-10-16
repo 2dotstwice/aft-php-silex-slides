@@ -295,7 +295,7 @@ body {
 .reveal h1, .reveal h2, .reveal h3 {
   line-height: 1em; }
 .reveal h1 {
-  color: white;
+  color: #eed530;
   font-size: 2.1em;
   font-weight: 600; }
 .reveal h2 {
