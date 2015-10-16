@@ -300,6 +300,11 @@ body {
   font-weight: 600; }
 .reveal h2 {
   color: #eed530; }
+.reveal a {
+  color: #eed530; }
+  .reveal a:hover {
+    color: #eed530;
+    text-decoration: underline; }
 .reveal p, .reveal li {
   font-size: 90%; }
 .reveal ul {

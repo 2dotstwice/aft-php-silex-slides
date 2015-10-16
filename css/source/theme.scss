@@ -109,6 +109,14 @@ body {
   h2 {
     color: $yellow;
   }
+  a {
+    color: $yellow;
+
+    &:hover {
+      color: $yellow;
+      text-decoration: underline;
+    }
+  }
   p, li {
     font-size: 90%;
   }
