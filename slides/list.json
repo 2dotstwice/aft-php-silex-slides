@@ -34,5 +34,7 @@
     "filesystem-json-encode-screenshot.md",
     "filesystem-json-decode.md",
     "twig-templates.md",
-    "twig-templates-html.md"
+    "twig-templates-html.md",
+    "additional-reading.md",
+    "break.md"
 ]
