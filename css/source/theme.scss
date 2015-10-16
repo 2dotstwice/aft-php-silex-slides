@@ -68,8 +68,14 @@ section.has-light-background {
 
 // Styles ---------------------------------------
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+}
+
 body {
-  background: $brand-color-primary url('../img/bg.jpg') no-repeat 50% top;
+  background: $brand-color-primary url('../resources/theme-img/bg.jpg') no-repeat 50% top;
   background-size: cover;
   position: relative;
 }

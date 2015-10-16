@@ -274,8 +274,13 @@ body {
 .reveal pre {
   box-shadow: none; }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
 body {
-  background: #713781 url('../img/bg.jpg') no-repeat 50% top;
+  background: #713781 url('../resources/theme-img/bg.jpg') no-repeat 50% top;
   background-size: cover;
   position: relative; }
 
