@@ -298,6 +298,8 @@ body {
   color: white;
   font-size: 2.1em;
   font-weight: 600; }
+.reveal h2 {
+  color: #eed530; }
 .reveal p, .reveal li {
   font-size: 90%; }
 .reveal ul {
@@ -310,6 +312,7 @@ body {
     margin-bottom: 0.2em; }
     .reveal ul li:before {
       content: '»';
+      color: #eed530;
       display: block;
       font-size: 0.9em;
       position: absolute;
