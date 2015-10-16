@@ -273,3 +273,94 @@ body {
 
 .reveal pre {
   box-shadow: none; }
+
+body {
+  background: #713781 url('../img/bg.jpg') no-repeat 50% top;
+  background-size: cover;
+  position: relative; }
+
+.reveal .intro {
+  position: relative; }
+  .reveal .intro h1 {
+    margin-bottom: 0.5em; }
+  .reveal .intro-logos {
+    max-width: 500px;
+    top: 100%; }
+
+.reveal h1, .reveal h2, .reveal h3 {
+  line-height: 1em; }
+.reveal h1 {
+  color: white;
+  font-size: 2.1em;
+  font-weight: 600; }
+.reveal p, .reveal li {
+  font-size: 90%; }
+.reveal ul {
+  list-style: none;
+  margin: 0 0 1em;
+  padding: 0; }
+  .reveal ul li {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 0.2em; }
+    .reveal ul li:before {
+      content: '»';
+      display: block;
+      font-size: 0.9em;
+      position: absolute;
+      top: 0.05em;
+      left: 0; }
+.reveal ol {
+  list-style: none;
+  margin: 0 0 1em;
+  padding: 0;
+  counter-reset: numbering; }
+  .reveal ol li {
+    padding-left: 32px;
+    margin-bottom: 0.2em; }
+    .reveal ol li:before {
+      content: counter(numbering) ".";
+      counter-increment: numbering;
+      position: absolute;
+      width: 28px; }
+    .reveal ol li ol {
+      counter-reset: numbering; }
+.reveal pre code {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.reveal .controls div.navigate-right {
+  border-left-color: white;
+  opacity: 0.5; }
+  .reveal .controls div.navigate-right.enabled {
+    border-left-color: white;
+    opacity: 0.95; }
+    .reveal .controls div.navigate-right.enabled:hover {
+      border-left-color: #3d0b4b; }
+.reveal .controls div.navigate-left {
+  border-right-color: white;
+  opacity: 0.5; }
+  .reveal .controls div.navigate-left.enabled {
+    border-right-color: white;
+    opacity: 0.9; }
+    .reveal .controls div.navigate-left.enabled:hover {
+      border-right-color: #3d0b4b; }
+.reveal .controls div.navigate-up {
+  border-bottom-color: white;
+  opacity: 0.5; }
+  .reveal .controls div.navigate-up.enabled {
+    border-bottom-color: white;
+    opacity: 0.9; }
+    .reveal .controls div.navigate-up.enabled:hover {
+      border-bottom-color: #3d0b4b; }
+.reveal .controls div.navigate-down {
+  border-top-color: white;
+  opacity: 0.5; }
+  .reveal .controls div.navigate-down.enabled {
+    border-top-color: white;
+    opacity: 0.9; }
+    .reveal .controls div.navigate-down.enabled:hover {
+      border-top-color: #3d0b4b; }
+.reveal .progress {
+  height: 10px; }
+  .reveal .progress span {
+    background: #3d0b4b; }

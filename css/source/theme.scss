@@ -26,6 +26,9 @@ $backgroundColor: #222;
 $mainColor: #fff;
 $headingColor: #fff;
 
+$brand-color-primary: #713781;
+$brand-color-secondary: #3d0b4b;
+
 $mainFontSize: 38px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'Source Sans Pro', Helvetica, sans-serif;
@@ -62,3 +65,138 @@ section.has-light-background {
 .reveal pre {
   box-shadow: none;
 }
+
+// Styles ---------------------------------------
+
+body {
+  background: $brand-color-primary url('../img/bg.jpg') no-repeat 50% top;
+  background-size: cover;
+  position: relative;
+}
+
+// Slides: 01
+.reveal {
+  .intro {
+    position: relative;
+    h1 {
+      margin-bottom: .5em;
+    }
+    &-logos {
+      max-width: 500px;
+      top: 100%;
+    }
+  }
+}
+
+
+// Typo
+.reveal {
+  h1, h2, h3 {
+    line-height: 1em;
+  }
+  h1 {
+    color: white;
+    font-size: 2.1em;
+    font-weight: 600;
+  }
+  p, li {
+    font-size: 90%;
+  }
+  ul {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+    li {
+      padding-left: 25px;
+      position: relative;
+      margin-bottom: .2em;
+      &:before {
+        content: '»';
+        display: block;
+        font-size: .9em;
+        position: absolute;
+        top: .05em;
+        left: 0;
+      }
+    }
+  }
+  ol {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+    counter-reset: numbering;
+    li {
+      padding-left: 32px;
+      margin-bottom: .2em;
+      &:before {
+        content: counter(numbering) ".";
+        counter-increment: numbering;
+        position: absolute;
+        width: 28px;
+      }
+      ol {
+        counter-reset: numbering;
+      }
+    }
+  }
+  pre code {
+    background-color: rgba(black, .8);
+  }
+}
+
+// Reveal Controls
+.reveal {
+  .controls {
+    div.navigate-right {
+      border-left-color: white;
+      opacity: 0.5;
+      &.enabled {
+        border-left-color: white;
+        opacity: 0.95;
+        &:hover {
+          border-left-color: $brand-color-secondary;
+        }
+      }
+    }
+    div.navigate-left {
+      border-right-color: white;
+      opacity: 0.5;
+      &.enabled {
+        border-right-color: white;
+        opacity: 0.9;
+        &:hover {
+          border-right-color: $brand-color-secondary;
+        }
+      }
+    }
+    div.navigate-up {
+      border-bottom-color: white;
+      opacity: 0.5;
+      &.enabled {
+        border-bottom-color: white;
+        opacity: 0.9;
+        &:hover {
+          border-bottom-color: $brand-color-secondary;
+        }
+      }
+    }
+    div.navigate-down {
+      border-top-color: white;
+      opacity: 0.5;
+      &.enabled {
+        border-top-color: white;
+        opacity: 0.9;
+        &:hover {
+          border-top-color: $brand-color-secondary;
+        }
+      }
+    }
+  }
+  .progress {
+    height: 10px;
+    span {
+      background: $brand-color-secondary;
+    }
+  }
+}
+
