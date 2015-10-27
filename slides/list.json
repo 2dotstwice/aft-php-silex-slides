@@ -21,8 +21,6 @@
     "middlewares.md",
     "middlewares-screenshot.md",
     "middlewares-all.md",
-    "handling-errors.md",
-    "handling-errors-screenshot.md",
     "shared-services.md",
     "session-data.md",
     "session-data-denied.md",
